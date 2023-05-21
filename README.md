@@ -16,3 +16,5 @@ PIL stands for Python Imaging Library. It is a widely used library in Python for
 PIL allows you to open, manipulate, and save different image file formats, such as JPEG, PNG, BMP, and GIF. It provides a simple and intuitive interface for performing common image operations, making it popular among developers and researchers working with images in Python.
 ### 3. tkinter
 
+Tkinter is a standard Python library used for creating graphical user interfaces (GUIs). It provides a set of modules and classes that allow developers to build desktop applications with interactive windows, buttons, menus, text boxes, and other GUI elements.
+
