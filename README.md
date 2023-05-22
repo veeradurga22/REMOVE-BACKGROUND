@@ -1,6 +1,25 @@
-# REMOVE-BACKGROUND
-This python project is to perform to remove background of image
 
+# Python Background Removal Application with Tkinter
+
+The following code showcases a graphical user interface (GUI) implemented using the Tkinter library in Python. This GUI allows users to upload an image and remove its background using the rembg library.
+
+The main components of the application include:
+
+## Image Upload:
+
+The user can click the "Upload" button to open a file dialog and select an image file.
+The selected image file path is stored in the filename variable.
+The file path is displayed in the GUI using a label.
+
+## Background Removal:
+
+After uploading an image, the user can click the "Remove" button to initiate the background removal process.
+The Remove() function is called, which performs the following steps:
+Loads the selected image using the Image.open() function from the PIL library.
+Applies background removal using the rembg.remove() function from the rembg library.
+Saves the resulting image with a modified filename (prefixed with "Remove_bg_").
+Displays the resulting image using the default image viewer.
+Note: The code assumes that the necessary libraries (rembg, PIL, filedialog, messagebox) have been imported correctly and installed in the Python environment.
 ## Modules Used
 ### 1. rembg
 
