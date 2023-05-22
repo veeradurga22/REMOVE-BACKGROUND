@@ -5,7 +5,7 @@ from rembg import remove
 from PIL import Image
 root = Tk()
 root.geometry("500x300")
-root.title("Send Email")
+root.title("Remove-Bg")
 root.config(bg = "light yellow")
 filename=""
 
